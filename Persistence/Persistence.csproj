@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200617200446_Initial1.cs" />
+    <Compile Remove="Migrations\20200617200446_Initial1.Designer.cs" />
+    <Compile Remove="Migrations\20221017200528_addedColumns.cs" />
+    <Compile Remove="Migrations\20221017200528_addedColumns.Designer.cs" />
+    <Compile Remove="Migrations\20221019093045_newColumnsAdded.cs" />
+    <Compile Remove="Migrations\20221019093045_newColumnsAdded.Designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.5" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Application\Application.csproj" />
+  </ItemGroup>
+</Project>

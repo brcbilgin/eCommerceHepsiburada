@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:WebApi.Controllers.v1.CampaignController.CreateCampaign(Application.Features.CampaignFeatures.CommandHandlers.Commands.CreateCampaignCommand)">
+            <summary>
+            Creates Campaign
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.v1.CampaignController.GetCampaignInfo(System.String)">
+            <summary>
+            Gets Campaign info by Name.
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.v1.FileController.ReadFile">
+            <summary>
+            Reads File From appsetting.json
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.v1.OrderController.CreateOrder(Application.Features.OrderFeatures.CommandHandlers.Commands.CreateOrderCommand)">
+            <summary>
+            Creates Order
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.v1.ProductController.CreateProduct(Application.Features.ProductFeatures.CommandHandlers.Commands.CreateProductCommand)">
+            <summary>
+            Creates Product
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.v1.ProductController.GetProductInfo(System.String)">
+            <summary>
+            Gets Product info by ProductCode.
+            </summary>
+            <param name="productCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.v1.TimeController.IncreaseTime(Application.Features.TimeFeatures.CommandHandlers.Commands.IncreaseTimeCommand)">
+            <summary>
+            Increases time
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
