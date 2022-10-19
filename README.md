@@ -1,4 +1,8 @@
+Onion mimari, Mediatr, Cqrs, AutoMapper gibi clean kode unsurları kullanıldı. 
+eCommerceHepsiburada\Application\Features\ReadFile\ScenarioFile.txt dosyasına senaryolar yazılabilir. https://localhost:5001/swagger/index.html linki üzerinden FileControllerda bulunan ReadFile metodu ile bu dosyanın okunması sağlanır. Output Json string olarak döndürülmüştür. Veritabanı için MSSQL kullanılmıştır ve migration yapılmalıdır. Ayrıca ScenarioFile.txt ye alternatif olarak metotlar swagger üzerinden çağrılabilir. 
 
+
+-----------------------------------------------------
 Code Assignment
 You work in an e-commerce platform as a software engineer. A new campaign module which manipulates prices according to demand, is brought to you as an important business requirement.
 
